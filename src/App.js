@@ -20,7 +20,13 @@ const initialFilmsData = [
     description: 'A structural engineer named Michael Scofield devises an elaborate plan...',
     posterURL: 'https://fr.web.img5.acsta.net/pictures/17/05/22/16/49/588696.jpg',
   },
-  // Ajoutez plus de films ici
+  {
+    id: 3,
+    title: 'Gomorra',
+    rating: 9.0,
+    description: 'En Italie, la famille Savastano dirigée par Don pietro domine la mafia napolitaine...',
+    posterURL: 'https://italyformovies.it/app/img/film/locandine/gomorra_la_serie_locandina_1546942595.webp',
+  },
 ];
 
 const App = () => {
